@@ -1,0 +1,79 @@
+body
+{
+    color: black;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav
+{   
+    background-color: cyan;
+    color: white;
+}
+
+.nav ul
+{
+    margin: 0px;
+    padding: 8px;
+    list-style-type: none;
+    font-size: 8px;
+}
+
+.nav ul li
+{
+    padding: 8px;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    transition: background-color 0.2s;
+}
+
+.nav ul li:hover
+{
+    background-color: black;
+}
+
+.centered-container
+{
+    padding-top: 64px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 8px;
+}
+
+.home-item
+{
+    padding-top: 25px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.home-item p
+{
+    padding-top: 8px;
+    text-align: center;
+    margin-bottom: 8px;
+    font-weight: 3rem;
+}
+
+@media screen and (min-width: 500px)
+{
+    .nav ul
+    {
+        text-align: center;
+    }
+
+    .nav ul li
+    {
+        display: inline-block;
+    }
+    .single-product
+    {
+        width: 75%;
+        float: left;
+    }
+}
