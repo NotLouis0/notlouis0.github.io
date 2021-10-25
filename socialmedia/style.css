@@ -7,6 +7,31 @@ body
   margin: 0px;
 }
 
+/* Navbar */
+.nav
+{   
+  background-color: maroon;
+  color: white;
+  padding: 8px;
+}
+
+.nav a
+{
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+
+.nav a:hover
+{
+  background-color: black;
+  color: white;
+}
+
+/* Navbar end */
+
 .bgimg
 {
   background-image: url("bgimg.jpg");
@@ -15,21 +40,4 @@ body
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-.nav
-{   
-  background-color: maroon;
-  color: white;
-}
-
-.nav a
-{
-  color: black; 
-}
-
-.nav a:hover
-{
-  background-color: black;
-  color: white;
 }
