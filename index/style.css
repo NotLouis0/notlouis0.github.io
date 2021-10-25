@@ -21,6 +21,7 @@ body
   padding: 0px;
   list-style-type: none;
   font-size: 1.2rem;
+  transition: background-color 0.5s;
 }
 
 .nav a:hover
@@ -31,52 +32,20 @@ body
 
 /* Navbar end */
 
-.bgimg
+.title
 {
-  background-image: url("bgimg.jpg");
-  min-height: 380px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-
-
-.centered-container
-{
-  padding-top: 64px;
-  text-align: center;
-  background-color: white;
+  padding: 8px;
   color: black;
-  font-size: 2.5rem;
-  font-weight: 8px;
-}
-
-.home-item
-{
-  padding-top: 25px;
+  font-size: 1.5rem;
   text-align: center;
-  margin-bottom: 32px;
-}
-
-.home-item p
-{
-  padding-top: 8px;
-  text-align: center;
-  margin-bottom: 8px;
-  font-weight: 3rem;
 }
 
 @media screen and (min-width: 500px)
 {
-  .nav ul
+  .nav a
   {
-    text-align: center;
-  }
-
-  .nav ul li
-  {
+    padding: 1rem 3rem;
+    position: ;
     display: inline-block;
   }
   .single-product
