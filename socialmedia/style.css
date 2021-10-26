@@ -6,39 +6,3 @@ body
   padding: 0px;
   margin: 0px;
 }
-
-/* Navbar */
-.nav
-{   
-  background-color: maroon;
-  color: white;
-  padding: 8px;
-}
-
-.nav a
-{
-  color: black;
-  margin: 0px;
-  padding: 0px;
-  list-style-type: none;
-  font-size: 1.2rem;
-  transition: background-color 0.5s;
-}
-
-.nav a:hover
-{
-  background-color: black;
-  color: white;
-}
-
-/* Navbar end */
-
-.bgimg
-{
-  background-image: url("bgimg.jpg");
-  min-height: 380px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
