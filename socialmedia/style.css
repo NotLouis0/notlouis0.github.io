@@ -2,6 +2,16 @@
 {
   padding: 1.5rem;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
+}
+
+@media screen and (min-width: 500px)
+{
+  .social-media
+  {
+    padding: 1rem;
+    text-align: center;
+    display: inline-block;
+  }
 }
