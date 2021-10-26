@@ -1,12 +1,7 @@
-div
+.centered-container
 {
-  width: auto;
-  padding: 15px;
+  padding: 1.5rem;
+  color: black;
+  font-size: 1.2rem;
   text-align: center;
-}
-
-img instagram
-{
-  max-width: 50%;
-  width: auto;
 }
