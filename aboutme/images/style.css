@@ -5,10 +5,19 @@
   text-align: center;
 }
 
-.title
+h1
 {
   padding: 1.2rem;
   color: black;
   font-size: 1.5rem;
   text-align: center;
+}
+
+p
+{
+  text-indent: 40px;
+  padding-left: 1rem;
+  font-size: 14px;
+  text-align: left;
+
 }

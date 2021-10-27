@@ -2,19 +2,21 @@ nav
 {   
   background-color: maroon;
   color: white;
-  padding: 1rem;
+  padding: 0.6rem;
+  border-left: 8px solid black;
+  border-bottom: 8px solid black;
 }
 
 nav a
 {
-  background-color: white;
+  text-align: center;
   color: black;
-  border: 2px solid black;
+  border-bottom: 2px solid black;
   margin: 0px;
   padding: 4px;
-  list-style-type: none;
   font-size: 1.2rem;
   transition: background-color 0.5s;
+  text-decoration: none;
 }
 
 nav a:hover
