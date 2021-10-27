@@ -2,7 +2,7 @@ nav
 {   
   background-color: maroon;
   color: white;
-  padding: 4px;
+  padding: 1rem;
 }
 
 nav a
@@ -11,7 +11,7 @@ nav a
   color: black;
   border: 2px solid black;
   margin: 0px;
-  padding: 0px;
+  padding: 4px;
   list-style-type: none;
   font-size: 1.2rem;
   transition: background-color 0.5s;
